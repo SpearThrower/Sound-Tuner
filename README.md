@@ -39,27 +39,7 @@ Place your custom soundpacks in the following directory:
 
 ### Example Soundpack Folder Structure
 
-A soundpack should be organized as follows:
-
-Folder / File
-
-Description
-
-### Example Soundpack Folder Structure
-
-A soundpack should follow this folder structure:
-
-**Soundpack Location**
-
-*   Main directory: Sound Tuner/Sounds/Soundpacks/
-
-*   Example soundpack: Realistic Train Soundpack/
-
-
-**Required File**
-
-*   manifest.json — Defines the sound mappings for the soundpack.
-
+**A soundpack should be organized as follows**
 
 Local Folder Structure:
 
@@ -91,7 +71,25 @@ Modpack Subscription Structure:
 
 \---------------------------------------------------manifest.json
 
-**Important**
+**Soundpack Location**
+
+*   Main directory: Sound Tuner/Sounds/Soundpacks/
+
+*   Example soundpack: Realistic Train Soundpack/
+
+
+**Required File**
+
+*   manifest.json — Defines the sound mappings for the soundpack.
+
+
+### Important
+
+*   Soundpacks must contain valid mappings in their manifest.json file.
+*   Missing or invalid audio files are skipped.
+*   When a custom sound is unavailable, the game keeps using the original vanilla sound.
+*   Custom audio files must use the .ogg format.
+
 Each soundpack must contain a manifest.json file that defines its sound mappings.
 
 You can create multiple soundpacks and organize their audio files into the supported category folders. Each soundpack is discovered and loaded separately by Sound Tuner.
@@ -103,14 +101,6 @@ You can create multiple soundpacks and organize their audio files into the suppo
 Each soundpack should contain a manifest.json file that defines its sound mappings.
 
 You can create multiple soundpacks and organize their audio files into the supported category folders.
-
-### Important
-
-*   Soundpacks must contain valid mappings in their manifest.json file.
-*   Missing or invalid audio files are skipped.
-*   When a custom sound is unavailable, the game keeps using the original vanilla sound.
-*   Custom audio files must use the .ogg format.
-
 
 ## 🔧 Soundpack Creators
 
